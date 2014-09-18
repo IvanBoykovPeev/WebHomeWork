@@ -1,0 +1,32 @@
+body {
+	color: gray;
+    background-color: black;
+}
+
+header {
+	border: 1px solid;
+}
+
+nav {
+	border: 1px solid;
+	width: 100%;
+}
+
+aside {
+	width: 18%;
+	height: 400px;
+	float: left;
+	border: 1px solid;
+}
+
+article {
+	width: 78%;
+	float: left;
+	border: 1px solid;
+}
+
+footer{
+	width: 100%;
+	border: 1px solid;
+	clear: both;
+}
