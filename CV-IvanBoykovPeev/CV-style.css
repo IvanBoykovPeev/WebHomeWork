@@ -1,0 +1,56 @@
+.left {
+    padding-right: 0.5cm;
+    float: left;
+    width: 30%;
+    height: 28.7cm;
+    text-align: right;
+    border-right: 2px solid skyblue;
+    margin-right: 0px;
+    clear: both;
+}
+
+.right {
+    padding-left: 0.5cm;
+    width: 70%;
+    height: 23.7cm;
+    padding-top: 5cm;
+    float: left;
+    width: 11cm;
+    text-align: left;
+}
+
+h2 {
+    height: 2cm;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+li {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+Ul {
+    list-style: none;
+}
+
+
+
+p {
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+
+.wraper {
+    border: 1px solid gray;
+    width: 21cm;
+    height: 29.7cm;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
