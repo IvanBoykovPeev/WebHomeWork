@@ -36,6 +36,11 @@ table {
     padding-right: 10px
 }
 
+.right img {
+    width: 150px;
+    height: 150px;
+}
+
 .normal-list {
     list-style-type: disc;
     list-style-position: inside
@@ -44,7 +49,6 @@ table {
 .no-style-type {
     list-style-type: none
 }
-
 
 .lighter {
     font-weight: normal
