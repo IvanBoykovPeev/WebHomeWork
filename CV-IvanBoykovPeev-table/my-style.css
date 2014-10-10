@@ -1,9 +1,10 @@
-﻿body {
+body {
     background-color: #f1f8ff;
 }
 
 div {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 22cm;
     background-color: white;
     margin-left: auto;
@@ -13,23 +14,26 @@ div {
     }
 
 table {
-    margin-top: 1cm;
-    margin-bottom: 1cm;
-    width: 17cm;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 21cm;
     height: 29.7cm;
-    border-collapse: collapse
+    border-collapse: collapse;
 }
 
 .left {
     border-right: 1px solid skyblue;
-    width: 45%;
+    width: 40%;
     text-align: right;
-    padding: 10px
+    padding-right: 10px;
+    padding-left: 10px
 }
 
 .right {
+    width: 70%;
     text-align: left;
-    padding: 10px
+    padding-left: 10px;
+    padding-right: 10px
 }
 
 .normal-list {
@@ -53,4 +57,26 @@ table {
 
 #user-personal-data {
     padding-top: 42px
+}
+
+#person-info {
+    padding-top: 12px
+}
+
+#person-info2 {
+    padding-top: 65px
+}
+
+#person-info3 {
+    padding-top: 65px
+}
+
+#person-info4 {
+    padding-top: 45px
+}
+
+
+
+.info1 {
+    padding-top: 32px
 }
