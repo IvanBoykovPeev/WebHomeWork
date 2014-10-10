@@ -1,5 +1,5 @@
 body {
-	background-color: #6d7b81
+	background-color: #cae5f0
 }
 
 video {
@@ -11,3 +11,19 @@ audio {
     width: 500px;
     height: 50px
 }
+svg {
+    width: 100px;
+    height: 100px;
+}
+
+circle {
+    stroke: black;
+    fill: #b4c4d0
+}
+
+p {
+    float: left;
+    padding: 10px
+}
+
+
