@@ -1,28 +1,13 @@
-﻿body {
-    background-color: #6d7b81
+body {
+	background-color: #6d7b81
 }
 
 video {
-    margin-left: 200px;
-    margin-right: 200px;
-    width: 500px;
+	width: 500px;
     height: 350px
 }
 
 audio {
-    margin-left: 200px;
-    margin-right: 200px;
     width: 500px;
     height: 50px
-}
-
-iframe {
-    width: 500px;
-    height: 350px
-}
-
-div {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto
 }
