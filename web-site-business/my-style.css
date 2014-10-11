@@ -1,0 +1,89 @@
+
+.logo {
+    background-color: #05a7ea;
+    width: 16%;
+    height: 100px;
+    float: left
+}
+
+.title {
+    font-family: sans-serif;
+    text-align: center;
+    width: 84%;
+    height: 100px;
+    float: left;
+    background-color: #05a7ea
+}
+
+header {
+    width: 100%;
+    float: left;
+    height: 110px
+}
+
+nav {
+    width: 100%;
+    background-color: #344f5a;
+    float: left
+}
+
+li {
+    float: right
+}
+
+a {
+    display: block;
+    width: 60px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+a:link, a:visited {
+    display: block;
+    width: 150px;
+    font-weight: bold;
+    color: #cde1ea;
+    background-color: #344f5a;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #05a7ea
+}
+
+aside {
+    margin-top: 20px;
+    width: 20%;
+    float: left;
+    clear: both;
+    border: 1px solid red
+}
+
+aside div {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green
+}
+
+section {
+    margin-top: 20px;
+    float: left;
+    width: 79%;
+    border: 1px solid red;
+}
+
+section div {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green
+}
