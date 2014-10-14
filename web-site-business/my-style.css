@@ -1,13 +1,17 @@
 body {
-    background-color: #EEEEEE;
+    background-color: #FCF0D8;
+    margin-top: 0;
+    margin-left: 20px;
+    z-index: 1000
 }
 
 header {
-    background-color: skyblue;
+    color: #FCF0D8;
     width: 100%;
     float: left;
-    height: 200px;
+    height: 100px;
     min-height: 100px;
+    background-color: #0C0C0C;
     text-align: center;
 }
 
@@ -16,142 +20,86 @@ header img {
 }
 
 nav {
-    width: 100%;
-    background-color: #344f5a;
-    float: right;
+    background-color: #9CCCE4;
+    height: 138px;
 }
 
-#navigator li {
-    float: left;
-    height: 100%;
-    margin-right: 0.5em;
-    padding: 0 1em
-}
-
-#navigator > li > a {
-    float: left;
-    height: 100%;
-    color: white;
-    text-decoration: none;
-    line-height: 3;
-    font-weight: bold;
-    text-transform: uppercase
-}
-
-#navigator {
-    list-style-type: none;
+nav ul {
     margin: 0;
     padding: 0;
-    height: 3em;
-    list-style: none
+    list-style: none;
+    text-align: center;
 }
 
-#navigation > li > a:hover {
- color: orange;
- text-decoration: underline;
+nav ul ul {
+	display: none;
+    margin: 0;
+    padding: 0
 }
 
-#navigation > li.sub {
- position: relative;
+nav ul li ul li {
+    float: left;
+    clear: both
 }
 
+nav ul li {
+    float: left;
+    width: 150px;
+    margin-right: 1px;
+    background-color: #CC9C90; 
+    
+}
+
+nav ul li a {
+    margin: 0;
+    padding: 10px;
+    display: block;
+    color: #243C48;
+    text-decoration: none;
+}
+
+nav ul li:hover a {
+    color: #192423;
+    background-color: #c6e0c6
+}
+
+nav ul li:hover > ul {
+    display: block;
+    position: absolute;
+    left: 170px;
+    z-index: 10
 }
 
 aside {
-    min-height: 1000px;
-    width: 20%;
-    min-width: 250px;
-    margin-top: 20px;
+    display: block;
     float: left;
+    clear: both;
+    text-align: center
 }
 
 aside div {
     background-color: #D1D1D1;
-    float: left;
-    width: 230px;
-    height: 300px;
-    padding: 10px;
-    margin: 8px
+    width: 250px;
+    height: 200px;
+    clear: both
 }
 
-section {
-    width: 75%;
-    min-height: 1000px;
-    margin-top: 20px;
-    padding: 10px;
+section {;
+    background-color: #FFFFFF;;
     float: left;
-    border: 1px solid grey
+    text-align: center
 }
 
 section div {
-    margin: 5px;
-    padding: 10px;
-    float: left;
-    width: 200px;
+    margin: 10px;
+    width: 250px;
     height: 200px;
 }
 
 footer {
     float: left;
-    clear: both;
     width: 100%;
-    padding: 10px;
     background-color: skyblue
 }
 
-ul > li.sub {
-    position: relative
-}
 
-ul > li.sub ul {
-    width: 160px;
-    margin: 0px;
-    padding: 5px;
-    list-style: none;
-    background: blue;
-    position: absolute;
-    top: -1000em;
-}
-
-ul > li.sub ul li {
-    width: 100%;
-    margin: 0 auto 0.3em auto
-} 
-
-ul > li.sub ul li a {
-    height: 100%;
-    display: block;
-    padding: 0.4em;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none
-}
-
-ul > li.sub ul li a:hover {
-    background: skyblue;
-    text-decoration: none;
-}
-
-ul > li.sub:hover ul {
-    top: 3em;
-}
-
-
-
-
-
-
-
-
-
-
-
-        
-        
-        
-        
-        
-        
-        
-        
-}
