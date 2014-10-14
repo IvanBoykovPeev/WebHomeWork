@@ -1,0 +1,39 @@
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+nav ul ul {
+	display: none;
+    margin: 0;
+    padding: 0
+}
+
+nav ul li {
+    float: right;
+    width: 100px;
+    height: 38px;
+    padding: 0px;
+    margin: 1;
+    background-color: #95cb95; 
+    
+}
+
+nav ul li a {
+    margin: 0;
+    padding: 10px;
+    display: block;
+    color: #e34f18;
+    text-decoration: none;
+}
+
+nav ul li:hover a {
+    color: #4021c1;
+    background-color: #c6e0c6
+}
+
+nav ul li:hover > ul {
+    display: block;   
+}
