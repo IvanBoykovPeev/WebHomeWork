@@ -1,5 +1,6 @@
 body {
     background-color: #484848;
+    background-repeat: no-repeat;
     margin-top: 0;
     margin-left: 20px;
     margin-right: 20px;
@@ -7,8 +8,8 @@ body {
 }
 
 header {
-    background-image: url(header-img.PNG);
-    color: #2d2e10;
+    background-image: url(title.png);
+    color: #e63a06;
     width: 100%;
     float: left;
     height: 100px;
@@ -64,7 +65,7 @@ nav ul li {
 nav ul li a {
     padding: 10px;
     display: block;
-    color: #a6d0cc;
+    color: #fda00b;
     text-decoration: none;
     margin-left: 1px;
     margin-right: 1px;
@@ -72,8 +73,8 @@ nav ul li a {
 }
 
 nav ul li:hover a {
-    color: #090d0d;
-    background-color: #7a92a2
+    color: #eaf4f4;
+    background: linear-gradient(#020303, #497b7b);
 }
 
 nav ul li:hover > ul {
@@ -90,6 +91,7 @@ aside {
     clear: both;
     text-align: center;
     background-color: #0b0905;
+    color: #e8dfd0
     }
 
 aside div {
@@ -113,8 +115,7 @@ section div {
     height: 250px;
     float: left;
     background-color: #d3eeff;
-    margin: 20px;
-    border: 1px solid #484848;
+    margin: 10px;
     border-radius: 5px
 }
 
