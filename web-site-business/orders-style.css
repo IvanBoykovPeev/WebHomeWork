@@ -1,0 +1,142 @@
+body {
+    background-color: #484848;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: sans-serif
+}
+
+header {
+    background-image: url(title.png);
+    color: #2cc64f;
+    width: 100%;
+    float: left;
+    height: 100px;
+    min-height: 100px;
+    background-color: #104466;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 5px 5px 5px #d7f246;
+    text-transform: uppercase;
+}
+
+header img {
+    float: left;
+}
+
+nav {
+    width: 100%;
+    height: 39px;
+    background-color: #080707;
+    float: left;
+    clear: both;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul ul {
+	display: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li ul li {
+    float: left;
+    clear: both;
+    margin: 0;
+    padding: 0
+}
+
+nav ul li {
+    float: left;
+    width: 160px;
+    background-color: #b0c4b7;
+    text-transform: uppercase;
+    background: linear-gradient(#020303, #497b7b)
+}
+
+nav ul li a {
+    padding: 10px;
+    display: block;
+    color: #fda00b;
+    text-decoration: none;
+    margin-left: 1px;
+    margin-right: 1px;
+    
+}
+
+nav ul li:hover a {
+    color: #eaf4f4;
+    background: linear-gradient(#020303, #497b7b);
+}
+
+nav ul li:hover > ul {
+    display: block;
+    position: absolute;
+    left: 180px;
+    z-index: 10;
+}
+
+aside {
+    width: 20%;
+    display: block;
+    float: left;
+    clear: both;
+    text-align: center;
+    background-color: #0b0905;
+    color: #e8dfd0
+    }
+
+aside div {
+    background-color: #98caeb;
+    color: #000;
+    width: 290px;
+    height: 150px;
+    float: left;
+    clear: both;
+    margin: 8px
+}
+
+aside div a {
+    text-decoration: none;
+    color: #000
+}
+
+section {
+    width: 80%;
+    float: right;
+    background-color: #bdc9c8;
+    text-align: center;
+}
+
+section div {
+    width: 200px;
+    height: 350px;
+    float: left;
+    background-color: #d3eeff;
+    color: #000;
+    margin: 10px;
+    border-radius: 5px
+}
+
+section div p {
+    height: 100px
+}
+
+footer {
+    width: 100%;
+    float: left;
+    clear: both;
+    background-color: #0b0c0d;
+    color: #75e8dd;
+}
+
+footer p {
+    padding: 10px
+}
