@@ -6,16 +6,17 @@ body {
     padding: 0
 }
 
-#main {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-color: green
+/* main atyle */
+
+#container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 #header {
     width: 100%;
+    float: left;
+    background-color: #ACBDC5
 }
 
 #logo {
@@ -23,6 +24,7 @@ body {
 }
 
 #nav {
+    position: relative;
     float: right;
     margin-top: 40px;
     background-color: #88A9C3
@@ -38,7 +40,7 @@ body {
 
 #nav ul li {
     float: left;
-    width: 160px;
+    width: 170px;
     text-transform: uppercase;
     background-color: #ACBDC5;
     margin-right: 2px
@@ -58,8 +60,6 @@ body {
     padding: 0
 }
 
-
-
 #nav ul li a {
     padding: 10px;
     display: block;
@@ -67,53 +67,150 @@ body {
     text-decoration: none;
     margin-left: 1px;
     margin-right: 1px;
-    
 }
 
 #nav ul li:hover a {
-    color: #eaf4f4;
-    background-color: #88A9C3;
+    color: black;
+    background-color: #ACBDC5;
 }
 
 #nav ul li:hover > ul {
     display: block;
     position: absolute;
-    right: 617px;
-    top: 10;
-    z-index: 10;
-}
-
-#baner {
-    width: 960px;
-    float: left;
-    clear: both;
-    display: block;
-    margin-top: 35px;
-    margin-left: auto;
-    margin-right: auto
-}
-
-#baner img {
-    border-radius: 5px
+    right: 356px;
+    top: 37px;
 }
 
 #aside {
-    display: block;
     float: left;
     clear: both;
+    width: 20%;
+    background-color: #A5A5A5
+}
+
+#aside div {
+    float: left;
+    padding: 10px
+}
+
+#section {
+    float: left;
+    width: 80%;
+    background-color: #B6E1EA
+}
+
+#section div {
+    padding: 10px
+}
+
+.baner {
+    width: 70%;
+    margin: 0 auto;
 }
 
 #footer {
-    height: 150px;
-    width: 100%;
-    float: left;
     clear: both;
-    background-color: #272727;
-    color: #75e8dd;
-    padding: 20px
+    width: 100%;
+    height: 50px;
+    background-color: gray
 }
 
 #footer div {
-    height: 140px;
-    padding-top: 110px
+    padding: 10px
+}
+
+/*CV table stayle*/
+#section table {
+    border-collapse: collapse;
+    margin: 10px;
+    background-color: white
+}
+
+.left {
+    border-right: 1px solid skyblue;
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+.right {
+    width: 60%;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.right img {
+    width: 150px;
+    height: 150px;
+}
+
+.normal-list {
+    list-style-type: disc;
+    list-style-position: inside
+}
+
+.no-style-type {
+    list-style-type: none
+}
+
+.lighter {
+    font-weight: normal
+}
+
+#langages {
+    padding-top: 25px;
+    padding-left: 3px
+}
+
+#user-personal-data {
+    padding-top: 42px
+}
+
+#person-info {
+    padding-top: 12px
+}
+
+#person-info2 {
+    padding-top: 65px
+}
+
+#person-info3 {
+    padding-top: 65px
+}
+
+#person-info4 {
+    padding-top: 45px
+}
+
+.info1 {
+    padding-top: 32px
+}
+
+/*my-likes style*/
+
+video {
+    width: 500px;
+    height: 350px
+}
+
+audio {
+    width: 500px;
+    height: 50px
+}
+svg {
+    width: 100px;
+    height: 100px;
+    background-color: white
+}
+
+circle {
+    stroke: black;
+    fill: white
+}
+
+#section p {
+    float: left;
+    padding: 10px
 }

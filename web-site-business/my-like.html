@@ -4,37 +4,34 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta name="author" content="Ivan Boykov Peev">
         <title>My-likes</title>
-        <link rel="stylesheet" href="my-like-style.css">
+        <link rel="stylesheet" href="index-style.css">
     </head>
     <body>
-        <header>
-        <div>
-        <a href="index.html"><img src="book-logo.png"></a></div><h1>Site Title</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">За фирмата</a></li>
-            <li><a href="#">За собствника</a>
+    <div id="container">
+        <div id="header">
+            <div id="logo"><a href="index.html"><img src="logo.png"></a></div>
+            <div id="nav">
                 <ul>
-                    <li><a href="CV.html">CV</a></li>
-                    <li><a href="my-like.html">My Like</a></li>
+                    <li><a href="#">За фирмата</a></li>
+                    <li><a href="#">За собствника&#9662</a>
+                        <ul>
+                            <li><a href="CV.html">CV</a></li>
+                            <li><a href="my-like.html">My Like</a></li>
+                        </ul></li>
+                    <li><a href="#">Продукти</a></li>
+                    <li><a href="#">Поръчки</a></li>
                 </ul>
-            </li>
-            <li><a href="#">Продукти</a></li>
-            <li><a href="#">Поръчки</a></li>
-        </ul>
-    </nav>
-    <aside><h1>Новини</h1>
-        <div>
-            <img src="ivo-siromahov.png">
-            <a href="http://www.helikon.bg/news/1798_ivo-siromahov-predstavia-moiat-taen-liuboven-zhivot-s-natcionalno-turne.html" target="_blank"><p>Иво Сиромахов представя „Моят таен любовен живот“ с национално турне</p></a>
+            </div>
         </div>
-        <div><img src="news-2.png"><a href="http://www.helikon.bg/news/1797_liudmila-filipova-shte-se-sreshtne-s-gimnazisti-v-helikon-vitosha.html" target="_blank"><p>Людмила Филипова ще се срещне с гимназисти в „Хеликон-Витоша“</p></a>
+        <div id="aside">
+                <div><h2>News1</h2>
+                <p>Lorem ipsum Duis et magna irure officia labore consectetur dolor minim ut dolore irure ut mollit exercitation et magna dolor est anim reprehenderit labore sit aute ex. Lorem ipsum Do est et in Excepteur proident.</p></div>
+                <div><h2>News2</h2>
+                <p>Lorem ipsum Duis et magna irure officia labore consectetur dolor minim ut dolore irure ut mollit exercitation et magna dolor est anim reprehenderit labore sit aute ex. Lorem ipsum Do est et in Excepteur proident.</p></div>
+                <div><h2>News3</h2>
+                <p>Lorem ipsum Duis et magna irure officia labore consectetur dolor minim ut dolore irure ut mollit exercitation et magna dolor est anim reprehenderit labore sit aute ex. Lorem ipsum Do est et in Excepteur proident.</p></div>
         </div>
-        <div><img src="news3.png"><a href="http://www.helikon.bg/news/1793_predstaviat-vekat-na-tcar-samuil-v-helikon-balgariia.html" target="_blank"><p>Представят "Векът на цар Самуил" в „Хеликон България“</p></a>
-        </div>
-    </aside>
-        <section>
+        <div id="section">
 			<div>
             <video controls src="Enigma-TheSocialSong.mp4">
             </video>
@@ -46,10 +43,9 @@
             <div>
                 <p>
                 <h1>Лице на кръг</h1>
-                <pre><h3>Задача:</h3>Намерете лицето на кръга:Ако r = 1.2cm<br>Решение:
+                <pre><h3>Задача:</h3>Намерете лицето на кръга: Ако r = 1.2cm<br>Решение:
             S = &#960r<sup>2</sup>
-            S = 3.14*1.2 = 3.768
-   Отговор:
+            S = 3.14*1.2 = 3.768<br>Отговор:
             S = 3.768cm<sup>2</sup>
             </pre>
                 <svg>
@@ -57,9 +53,10 @@
                 </circle>
             </svg></p>
         </div>
-        </section>
-    <footer>
-        <p>Create by Ivan Boykov Peev</p>
-    </footer>
+        </div>
+            <div id="footer">
+                <div><p>&#169 2014 Ivan Boykov Peev</p></div>
+            </div>
+        </div>
 		</body>
 </html>
