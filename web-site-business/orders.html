@@ -4,39 +4,81 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="author" content="Ivan Boykov Peev">
     <title>business-site</title>
-    <link rel="stylesheet" type="text/css" href="my-style.css">
+    <link rel="stylesheet" type="text/css" href="index-style.css">
     
 </head>
 </html>
 <body>
-    <header>
-        <div>
-        <a href="index.html"><img src="book-logo.png"></a></div><h1>Site Title</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">За фирмата</a></li>
-            <li><a href="#">За собствника</a>
+    <div id="container">
+        <div id="header">
+            <div id="logo"><a href="index.html"><img src="logo.png"></a></div>
+            <div id="nav">
                 <ul>
-                    <li><a href="CV.html">CV</a></li>
-                    <li><a href="my-like.html">My Like</a></li>
+                    <li><a href="#">За фирмата</a></li>
+                    <li><a href="#">За собствника&#9662</a>
+                        <ul>
+                            <li><a href="CV.html">CV</a></li>
+                            <li><a href="my-like.html">My Like</a></li>
+                        </ul></li>
+                    <li><a href="products.html">Продукти</a></li>
+                    <li><a href="orders.html">Поръчки</a></li>
                 </ul>
-            </li>
-            <li><a href="#">Продукти</a></li>
-            <li><a href="#">Поръчки</a></li>
-        </ul>
-    </nav>
-    <aside><h1>Новини</h1>
-        <div>
-            <img src="ivo-siromahov.png">
-            <a href="http://www.helikon.bg/news/1798_ivo-siromahov-predstavia-moiat-taen-liuboven-zhivot-s-natcionalno-turne.html" target="_blank" ><p>Иво Сиромахов представя „Моят таен любовен живот“ с национално турне</p></a>
+            </div>
         </div>
-        <div><img src="news-2.png"><a href="http://www.helikon.bg/news/1797_liudmila-filipova-shte-se-sreshtne-s-gimnazisti-v-helikon-vitosha.html" target="_blank"><p>Людмила Филипова ще се срещне с гимназисти в „Хеликон-Витоша“</p></a>
+        <div id="aside">
+                <div><h2>News1</h2>
+                <p>Lorem ipsum Duis et magna irure officia labore consectetur dolor minim ut dolore irure ut mollit exercitation et magna dolor est anim reprehenderit labore sit aute ex. Lorem ipsum Do est et in Excepteur proident.</p></div>
+                <div><h2>News2</h2>
+                <p>Lorem ipsum Duis et magna irure officia labore consectetur dolor minim ut dolore irure ut mollit exercitation et magna dolor est anim reprehenderit labore sit aute ex. Lorem ipsum Do est et in Excepteur proident.</p></div>
+                <div><h2>News3</h2>
+                <p>Lorem ipsum Duis et magna irure officia labore consectetur dolor minim ut dolore irure ut mollit exercitation et magna dolor est anim reprehenderit labore sit aute ex. Lorem ipsum Do est et in Excepteur proident.</p></div>
         </div>
-        <div><img src="news3.png"><a href="http://www.helikon.bg/news/1793_predstaviat-vekat-na-tcar-samuil-v-helikon-balgariia.html" target="_blank"><p>Представят "Векът на цар Самуил" в „Хеликон България“</p></a>
+        <div id="section">
+            <table id="orders">
+                <form>
+                    <tbody>
+                        <tr>
+                            <td>First name: </td>
+                            <td><input type="text" name="firstname"></td>
+                        </tr>
+                    <tr>
+                        <td>Last name: </td>
+                        <td><input type="text" name "lastname"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail:</td>
+                        <td><input type="text" name="mail" value="your email"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="sex" value="male">Male
+                        <input type="radio" name="sex" value="female">Female</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><select name="product-number">
+                        <option value="product1">product1</option>
+                        <option value="product1">product2</option>
+                        <option value="product1">product3</option>
+                        <option value="product1">product4</option>
+                        <option value="product1">product5</option>
+                        <option value="product1">product6</option>
+                        <option value="product1">product7</option>
+                        <option value="product1">product8</option>
+                        <option value="product1">product9</option>
+                        <option value="product1">product10</option>
+                    </select></td>
+                        <td></td>
+                    </tr>
+                    <tr><input type="checkbox" name="pay" value="cach">I pay cach
+                    <textarea row="10" cols="20"></textarea></tr>
+                    <tr>sdfsf</tr>
+                </tr>
+                </form>
+                </tbody>
+            </table>
+            </div>
+            <div id="footer">
+                <div><p>&#169 2014 Ivan Boykov Peev</p></div>
+            </div>
         </div>
-    </aside>
-        <footer>
-        <p>Create by Ivan Boykov Peev</p>
-    </footer>
 </body>
