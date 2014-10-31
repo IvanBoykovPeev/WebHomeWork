@@ -12,9 +12,10 @@
     <div id="container">
         <div id="header">
             <div id="logo"><a href="index.html"><img src="logo.png"></a></div>
+            <div id="site-name"><h1>Site name<h1></div>
             <div id="nav">
                 <ul>
-                    <li><a href="#">За фирмата</a></li>
+                    <li><a href="company.html">За фирмата</a></li>
                     <li><a href="#">За собствника&#9662</a>
                         <ul>
                             <li><a href="CV.html">CV</a></li>
@@ -34,48 +35,32 @@
                 <p>Lorem ipsum Duis et magna irure officia labore consectetur dolor minim ut dolore irure ut mollit exercitation et magna dolor est anim reprehenderit labore sit aute ex. Lorem ipsum Do est et in Excepteur proident.</p></div>
         </div>
         <div id="section">
-            <table id="orders">
-                <form>
-                    <tbody>
-                        <tr>
-                            <td>First name: </td>
-                            <td><input type="text" name="firstname"></td>
-                        </tr>
-                    <tr>
-                        <td>Last name: </td>
-                        <td><input type="text" name "lastname"></td>
-                    </tr>
-                    <tr>
-                        <td>E-mail:</td>
-                        <td><input type="text" name="mail" value="your email"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="radio" name="sex" value="male">Male
-                        <input type="radio" name="sex" value="female">Female</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td><select name="product-number">
-                        <option value="product1">product1</option>
-                        <option value="product1">product2</option>
-                        <option value="product1">product3</option>
-                        <option value="product1">product4</option>
-                        <option value="product1">product5</option>
-                        <option value="product1">product6</option>
-                        <option value="product1">product7</option>
-                        <option value="product1">product8</option>
-                        <option value="product1">product9</option>
-                        <option value="product1">product10</option>
-                    </select></td>
-                        <td></td>
-                    </tr>
-                    <tr><input type="checkbox" name="pay" value="cach">I pay cach
-                    <textarea row="10" cols="20"></textarea></tr>
-                    <tr>sdfsf</tr>
-                </tr>
+            <form id="orders">
+                <fieldset>
+                    <legend>Поръчки</legend>
+                   Име: <input type="text" name="firstname"><br>
+                   Фамилия: <input type="text" name="lastname"><br>
+                   E-mail: <input type="text" name="mail"><br>
+                   <input type="radio" name="order-fast" value="fast">Бърза доставка до 1 ден<br>
+                   <input type="radio" name="order-normal" value="normal">Нормална доставка<br>
+                   <select name="product-number">
+                        <option value="product1">продукт 1</option>
+                        <option value="product2">продукт 2</option>
+                        <option value="product3">продукт 3</option>
+                        <option value="product4">продукт 4</option>
+                        <option value="product5">продукт 5</option>
+                        <option value="product6">продукт 6</option>
+                        <option value="product7">продукт 7</option>
+                        <option value="product8">продукт 8</option>
+                        <option value="product9">продукт 9</option>
+                        <option value="product10">продукт 10</option>
+                    </select>
+                    <input type="checkbox" name="pay" value="cach">Плащане с банков превод<br>
+                    <h4>Адрес:</h4>
+                    <textarea row="10" cols="20"></textarea><br>
+                    <input type="submit" value="Поръчай">
+                    </fieldset>
                 </form>
-                </tbody>
-            </table>
             </div>
             <div id="footer">
                 <div><p>&#169 2014 Ivan Boykov Peev</p></div>

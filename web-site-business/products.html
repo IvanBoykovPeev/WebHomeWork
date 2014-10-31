@@ -5,16 +5,27 @@
     <meta name="author" content="Ivan Boykov Peev">
     <title>business-site</title>
     <link rel="stylesheet" type="text/css" href="index-style.css">
-    
-</head>
+    <script>
+        function orderConfirm() {
+            var x = confirm("Желаете ли да пазарувате")
+            if(x==true) {
+                window.location.replace("orders.html");
+            }
+            else {
+                window.location.replace("index.html");
+            }
+    }
+    </script>
+    </head>
 </html>
 <body>
     <div id="container">
         <div id="header">
             <div id="logo"><a href="index.html"><img src="logo.png"></a></div>
+            <div id="site-name"><h1>Site name</h1></div>
             <div id="nav">
                 <ul>
-                    <li><a href="#">За фирмата</a></li>
+                    <li><a href="company.html">За фирмата</a></li>
                     <li><a href="#">За собствника&#9662</a>
                         <ul>
                             <li><a href="CV.html">CV</a></li>
@@ -34,16 +45,16 @@
                 <p>Lorem ipsum Duis et magna irure officia labore consectetur dolor minim ut dolore irure ut mollit exercitation et magna dolor est anim reprehenderit labore sit aute ex. Lorem ipsum Do est et in Excepteur proident.</p></div>
         </div>
         <div id="section">
-                <div id="products"><img src="product.jpg">product1</div>
-                <div id="products"><img src="product.jpg">product2</div>
-                <div id="products"><img src="product.jpg">product3</div>
-                <div id="products"><img src="product.jpg">product4</div>
-                <div id="products"><img src="product.jpg">product5</div>
-                <div id="products"><img src="product.jpg">product6</div>
-                <div id="products"><img src="product.jpg">product7</div>
-                <div id="products"><img src="product.jpg">product8</div>
-                <div id="products"><img src="product.jpg">product9</div>
-                <div id="products"><img src="product.jpg">product10</div>
+                <div id="products"><img src="product.jpg" onclick="orderConfirm()">product1</div>
+                <div id="products"><img src="product.jpg" onclick="orderConfirm()">product2</div>
+                <div id="products"><img src="product.jpg" onclick="orderConfirm()">product3</div>
+                <div id="products"><img src="product.jpg" onclick="orderConfirm()">product4</div>
+                <div id="products"><img src="product.jpg" onclick="orderConfirm()">product5</div>
+                <div id="products"><img src="product.jpg" onclick="orderConfirm()">product6</div>
+                <div id="products"><img src="product.jpg" onclick="orderConfirm()">product7</div>
+                <div id="products"><img src="product.jpg" onclick="orderConfirm()">product8</div>
+                <div id="products"><img src="product.jpg" onclick="orderConfirm()">product9</div>
+                <div id="products"><img src="product.jpg" onclick="orderConfirm()">product10</div>
             </div>
             <div id="footer">
                 <div><p>&#169 2014 Ivan Boykov Peev</p></div>

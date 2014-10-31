@@ -13,25 +13,60 @@ body {
     margin: 0 auto;
 }
 
-#header {
+#header, header {
     width: 100%;
     float: left;
     clear: both;
-    background-color: #ACBDC5
+    background-color: #ACBDC5;
 }
 
-#logo {
+#logo, header #logo {
     float: left;
+    position: relative;
+    -webkit-animation: animation-logo 5s infinite;
 }
 
-#nav {
-    position: relative;
+@-webkit-keyframes animation-logo{
+    0% {left: 0%;}
+    25% {left: 5%;}
+    50% {left: 10%;}
+    75% {left: 5%;}
+    100% {left: 0%;}
+}
+
+@-moz-keyframes animation-logo{
+    0% {left: 0%;}
+    25% {left: 5%;}
+    50% {left: 10%;}
+    75% {left: 5%;}
+    100% {left: 0%;}
+}
+
+@keyframes animation-logo{
+    0% {left: 0%;}
+    25% {left: 5%;}
+    50% {left: 10%;}
+    75% {left: 5%;}
+    100% {left: 0%;}
+}
+
+#header #site-name,header #site-name {
+    font-size: 20px;
+    letter-spacing: 30px;
+    color: #FFFF80;
+    text-align: center;
+}
+
+#nav, nav {
     float: right;
+    clear: both;
+    display: inline;
+    position: relative;
     margin-top: 40px;
     background-color: #88A9C3
     }
 
-#nav ul {
+#nav ul,nav ul{
     margin: 0;
     padding: 0;
     display: inline;
@@ -39,7 +74,7 @@ body {
     text-align: center;
 }
 
-#nav ul li {
+#nav ul li, nav ul li {
     float: left;
     width: 170px;
     text-transform: uppercase;
@@ -47,21 +82,20 @@ body {
     margin-right: 2px
 }
 
-#nav ul ul {
-    width: 160px;
+#nav ul ul, nav ul ul {
 	display: none;
     margin: 0;
     padding: 0;
 }
 
-#nav ul li ul li {
+#nav ul li ul li, nav ul li ul li{
     float: left;
     clear: both;
     margin: 0;
     padding: 0
 }
 
-#nav ul li a {
+#nav ul li a, nav ul li a {
     padding: 10px;
     display: block;
     color: #FFFFFF;
@@ -70,37 +104,37 @@ body {
     margin-right: 1px;
 }
 
-#nav ul li:hover a {
+#nav ul li:hover a, nav ul li:hover a {
     color: black;
     background-color: #ACBDC5;
 }
 
-#nav ul li:hover > ul {
+#nav ul li:hover > ul, nav ul li:hover > ul{
     display: block;
     position: absolute;
-    right: 356px;
+    right: 346px;
     top: 37px;
 }
 
-#aside {
+#aside, aside {
     float: left;
     width: 20%;
     background-color: #A5A5A5
 }
 
-#aside div {
+#aside div, aside div {
     float: left;
     padding: 10px
 }
 
-#section {
+#section, section {
     float: right;
     width: 80%;
     background-color: #B6E1EA
 }
 
 #section div {
-    padding: 10px
+    padding: 20px
 }
 
 .baner {
@@ -108,7 +142,7 @@ body {
     margin: 0 auto;
 }
 
-#footer {
+#footer, footer {
     float: left;
     clear: both;
     width: 100%;
@@ -116,7 +150,7 @@ body {
     background-color: gray
 }
 
-#footer div {
+#footer div, footer div {
     padding: 10px
 }
 
@@ -217,7 +251,7 @@ circle {
     padding: 10px
 }
 
-/*products styl*/
+/*products style*/
 
 #products {
     margin: 20px;
@@ -226,19 +260,51 @@ circle {
     float: left;
     background-color: white;
     text-align: center;
-    border: 1px solid black
+    border: 1px solid #334D54
 }
 
+#products img:hover {
+    position: relative;
+    top: -50px;
+    left: -50px;
+    width: 260px;
+    height: 300px;
+    border: 2px solid #FF8B17
+}
 
 /*orders-style*/
+
 #orders {
-    background-color: white;
-    padding: 10px;
-    border: 1px solid black
+    padding: 20px
 }
 
+#orders fieldset {
+    padding: 20px;
+    background-color: white
+}
+
+#orders input {
+    margin: 10px
+}
 
 #orders textarea {
-    width: 400px;
-    height: 150px
+    width: 300px;
+    height: 100px
+}
+
+/*company-style HTML5*/
+
+section div {
+    float: left;
+    clear: both;
+    padding: 20px;
+}
+
+section p img {
+    float: left;
+    margin-right: 20px
+}
+
+section div h2 {
+    color: #3D5266;
 }
