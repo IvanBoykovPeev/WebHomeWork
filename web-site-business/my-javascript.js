@@ -1,5 +1,5 @@
 function titleChange(obj) {
-	obj.style.color = "#8282FF";
+    obj.style.color = "#8282FF";
 	obj.style.letterSpacing = "60px";
 }
 
@@ -9,11 +9,12 @@ function normalStyle(obj) {
 }
 
 function orderConfirm() {
-    var x = confirm("Желаете ли да пазарувате")
-    if(x==true) {
-        window.location.replace("orders.html");
-    }
+    var x;
+    x = confirm("Желаете ли да пазарувате")
+    if (x == true) {
+        location.replace("orders.html");
+    } 
     else {
-        window.location.replace("index.html");
+        location.replace("index.html");
     }
 }
