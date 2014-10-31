@@ -50,11 +50,12 @@ body {
     100% {left: 0%;}
 }
 
-#header #site-name,header #site-name {
+#site-name {
     font-size: 20px;
     letter-spacing: 30px;
-    color: #FFFF80;
+    color: #FFE271;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #nav, nav {
@@ -105,7 +106,7 @@ body {
 }
 
 #nav ul li:hover a, nav ul li:hover a {
-    color: black;
+    color: #FFE271;
     background-color: #ACBDC5;
 }
 
@@ -269,7 +270,7 @@ circle {
     left: -50px;
     width: 260px;
     height: 300px;
-    border: 2px solid #FF8B17
+    border: 2px solid #FFE271
 }
 
 /*orders-style*/
