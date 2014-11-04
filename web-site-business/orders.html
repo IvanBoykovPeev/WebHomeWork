@@ -35,14 +35,16 @@
                 <p>Lorem ipsum Duis et magna irure officia labore consectetur dolor minim ut dolore irure ut mollit exercitation et magna dolor est anim reprehenderit labore sit aute ex. Lorem ipsum Do est et in Excepteur proident.</p></div>
         </div>
         <div id="section">
-            <form id="orders">
+            <form id="orders" method="get">
                 <fieldset>
                     <legend>Поръчки</legend>
-                   Име: <input type="text" name="firstname"><br>
-                   Фамилия: <input type="text" name="lastname"><br>
+                   Име: <input type="text" id="firstname" name="firstname"><br>
+                   Фамилия: <input type="text" id="lastname" name="lastname"><br>
                    E-mail: <input type="text" name="mail"><br>
-                   <input type="radio" name="order-fast" value="fast">Бърза доставка до 1 ден<br>
-                   <input type="radio" name="order-normal" value="normal">Нормална доставка<br>
+                   <label for="fast">Бърза доставка до 1 ден</label>
+                   <input type="radio" name="order" value="fast">
+                   <label for="normal">Нормална доставка</label>
+                   <input type="radio" name="order" checked value="normal"><br>
                    <select name="product-number">
                         <option value="product1">продукт 1</option>
                         <option value="product2">продукт 2</option>
@@ -57,8 +59,9 @@
                     </select>
                     <input type="checkbox" name="pay" value="cach">Плащане с банков превод<br>
                     <h4>Адрес:</h4>
-                    <textarea row="10" cols="20"></textarea><br>
-                    <input type="submit" value="Поръчай">
+                    <textarea row="10" cols="20" id="address"></textarea><br>
+                    <input type="button" value="Изпрати" onclick="send();"><input type="reset" value="Изчисти">
+                    
                     </fieldset>
                 </form>
             </div>

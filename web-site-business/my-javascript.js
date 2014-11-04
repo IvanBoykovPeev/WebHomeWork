@@ -18,3 +18,11 @@ function orderConfirm() {
         location.replace("index.html");
     }
 }
+
+function send() {
+    var firstName = document.getElementById('firstname').value;
+    var lastName = document.getElementById('lastname').value;
+    var address = document.getElementById('address').value;
+    var mail = "mailto:someone@example.com?Subject=Hello%20again&body=" + firstName + "%20"+ lastName + "%0A" + address;
+    location.replace(mail);
+}
