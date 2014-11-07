@@ -52,18 +52,18 @@ function send() {
    
 
 
-        if (firstName == null || firstName == "" ||
-        lastName == null || lastName == "" ||
-        email == null || eMail == "" ||
-        order == null || order == "" ||
-        productNumber == null || productNumber == "" ||
-        address== null || address == "") {
-        document.getElementById('res').innerText = "Не валидни данни";
+    if (firstName == null || firstName == "" ||
+    lastName == null || lastName == "" ||
+    email == null || eMail == "" ||
+    order == null || order == "" ||
+    productNumber == null || productNumber == "" ||
+    address== null || address == "") {
+    document.getElementById('res').innerText = "Не валидни данни";
     }
     else {
-        document.getElementById('res').innerText = "";
-        var mail = "MAILTO:someoneelse@example.com?cc=" + eMail + "&bcc=andsomeoneelse@example.com&subject=Order&body=" + firstName + "%20" + lastName + "%20" + order + "%20" + productNumber + "%20" + payHow + "%20" + address;
-        document.location.replace(mail);
+    document.getElementById('res').innerText = "";
+    var mail = "MAILTO:someoneelse@example.com?cc=" + eMail + "&bcc=andsomeoneelse@example.com&subject=Order&body=" + firstName + "%20" + lastName + "%20" + order + "%20" + productNumber + "%20" + payHow + "%20" + address;
+    document.location.replace(mail);
     }   
 }
 
